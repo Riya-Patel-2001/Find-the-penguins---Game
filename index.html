@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Find the Penguins</title>
+        <meta charset="utf-8">
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+
+        <div id="gameholder">
+
+            <div id="title"></div>
+            <div id="newGame"></div>
+            <div id="penguin1" class="tile"></div>
+            <div id="penguin2" class="tile"></div>
+            <div id="penguin3" class="tile"></div>
+            <div id="penguin4" class="tile"></div>
+            <div id="penguin5" class="tile"></div>
+            <div id="penguin6" class="tile"></div>
+            <div id="penguin7" class="tile"></div>
+            <div id="penguin8" class="tile"></div>
+            <div id="yeti" class="tile"></div>
+
+            <div id="penguin9" class="tile"></div>
+            <div id="penguin10" class="tile"></div>
+            <div id="penguin11" class="tile"></div>
+            <div id="penguin12" class="tile"></div>
+            <div id="penguin13" class="tile"></div>
+            <div id="penguin14" class="tile"></div>
+            <div id="penguin15" class="tile"></div>
+        </div>
+
+        <div class="score" id="threeGrid">
+            <span>Choice 1</span><br>
+            <span class="choice">3 X 3</span>
+            
+        </div>
+        <div class="score" id="fourGrid" style="margin-top: 120px;">
+        <span>Choice 2</span><br>
+            <span class="choice">4 X 4</span>
+            
+        </div>
+        <div class="score left">
+            <span>Highest Score</span><br>
+            <span id="highestScore">0</span>
+        </div>
+
+        <div class="score left" style="margin-top: 120px">
+            <span>Score</span><br>
+            <span id="currentScore">0</span>
+        </div>
+
+        <audio id="pSound" preload="auto">
+            <source src="./resources/penguin.wav" type="audio/wav">
+        </audio>
+
+        <audio id="ySound" preload="auto">
+            <source src="./resources/yeti.wav" type="audio/wav">
+        </audio>
+
+        <audio id="gSound" preload="auto"> 
+            <source src="./resources/gameStart.wav" type="audio/wav">
+        </audio>
+    </body>
+</html>
